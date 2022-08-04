@@ -20,11 +20,26 @@ class profileViewController: UIViewController {
     
     @IBOutlet weak var roleButton: UISegmentedControl!
     
-    @IBOutlet weak var counterLabel: UILabel!
+    //personal info label
+    @IBOutlet weak var emailText: UITextField!
+    @IBOutlet weak var phoneNumber: UITextField!
+    @IBOutlet weak var languageText: UITextField!
+    @IBOutlet weak var countryText: UITextField!
     
+    //labels for personal info
+    
+    @IBOutlet weak var emailLabel: UILabel!
+    
+    @IBOutlet weak var smsLabel: UILabel!
+    
+    @IBOutlet weak var countryLabel: UILabel!
+    
+    @IBOutlet weak var languageLabel: UILabel!
+    
+    @IBOutlet weak var counterLabel: UILabel!
     @IBOutlet weak var activitiesLabel: UILabel!
     var counter = 0
-    var activitiesA = ["Eat a meat free meal", "Join a cleanup", "Plant a tree", "Bike to school", "Grow a vegetable", "Carpool with somebody", "Use a reusable water bottle", "Start a compost bin", "Have a no TV day", "Use a reusable container to hold food"]
+    var activitiesA = ["Eat a meat free meal🍽", "Join a cleanup🧹", "Plant a tree🌳", "Bike to school🚲", "Grow a vegetable🥕", "Carpool with somebody🚗", "Use a reusable water bottle🚰", "Start a compost bin🗑", "Have a no TV day📺", "Reuse a container to hold food🧺"]
    
     
     override func viewDidLoad() {
@@ -37,9 +52,9 @@ class profileViewController: UIViewController {
         switch roleButton.selectedSegmentIndex
         {
         case 0:
-            firstLabel.text = "Community member"
+            firstLabel.text = "Community member🏢"
         case 1:
-            firstLabel.text = "Student/Teacher"
+            firstLabel.text = "Student/Teacher🏫"
         default:
             break
         }
@@ -59,6 +74,42 @@ class profileViewController: UIViewController {
         
         let action = activitiesA[randomInt]
         activitiesLabel.text = action
+    }
+    
+    
+    @IBAction func personalInfoButton(_ sender: UIButton) {
+        if let email = emailText.text {
+            emailLabel.text = "\(email)"
+        }
+        if let phone = phoneNumber.text {
+            smsLabel.text = "\(phone)"
+        }
+        
+        if let country = countryText.text {
+            countryLabel.text = "\(country)"
+        }
+        
+        if let language = languageText.text {
+            languageLabel.text = "\(language)"
+        }
+        
+    }
+    
+    @IBAction func cancelButton(_ sender: UIButton) {
+        if let email = emailText.text {
+            emailLabel.text = ""
+        }
+        if let phone = phoneNumber.text {
+            smsLabel.text = ""
+        }
+        
+        if let country = countryText.text {
+            countryLabel.text = ""
+        }
+        
+        if let language = languageText.text {
+            languageLabel.text = ""
+        }
     }
     
     /*

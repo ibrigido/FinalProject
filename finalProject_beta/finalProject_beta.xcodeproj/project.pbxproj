@@ -10,6 +10,7 @@
 		BD78B8EA289AAC020094E907 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD78B8E9289AAC020094E907 /* mapViewController.swift */; };
 		BD78B8EC289AB1520094E907 /* mapFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD78B8EB289AB1520094E907 /* mapFormViewController.swift */; };
 		BD78B8F0289AEEB60094E907 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD78B8EF289AEEB60094E907 /* profileViewController.swift */; };
+		BD78B8F2289C0E0D0094E907 /* communityFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD78B8F1289C0E0D0094E907 /* communityFormViewController.swift */; };
 		BDDCEB822899999F00148E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCEB812899999F00148E44 /* AppDelegate.swift */; };
 		BDDCEB842899999F00148E44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCEB832899999F00148E44 /* SceneDelegate.swift */; };
 		BDDCEB862899999F00148E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCEB852899999F00148E44 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		BD78B8E9289AAC020094E907 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		BD78B8EB289AB1520094E907 /* mapFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapFormViewController.swift; sourceTree = "<group>"; };
 		BD78B8EF289AEEB60094E907 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		BD78B8F1289C0E0D0094E907 /* communityFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communityFormViewController.swift; sourceTree = "<group>"; };
 		BDDCEB7E2899999F00148E44 /* finalProject_beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject_beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDCEB812899999F00148E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDDCEB832899999F00148E44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		BDDCEB802899999F00148E44 /* finalProject_beta */ = {
 			isa = PBXGroup;
 			children = (
+				BD78B8F1289C0E0D0094E907 /* communityFormViewController.swift */,
 				BD78B8EB289AB1520094E907 /* mapFormViewController.swift */,
 				BD78B8E9289AAC020094E907 /* mapViewController.swift */,
 				BDDCEB812899999F00148E44 /* AppDelegate.swift */,
@@ -274,6 +277,7 @@
 				BD78B8EC289AB1520094E907 /* mapFormViewController.swift in Sources */,
 				BD78B8F0289AEEB60094E907 /* profileViewController.swift in Sources */,
 				BD78B8EA289AAC020094E907 /* mapViewController.swift in Sources */,
+				BD78B8F2289C0E0D0094E907 /* communityFormViewController.swift in Sources */,
 				BDDCEB822899999F00148E44 /* AppDelegate.swift in Sources */,
 				BDDCEB8C2899999F00148E44 /* finalProject_beta.xcdatamodeld in Sources */,
 				BDDCEB842899999F00148E44 /* SceneDelegate.swift in Sources */,
